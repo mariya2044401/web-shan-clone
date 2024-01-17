@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(https://t3.ftcdn.net/jpg/05/09/85/40/240_F_509854035_W21rTwRsVVAgNq9djRvaqiUSciX1px8K.jpg);
+    background-size: 100%;
+
+}
+#content {
+color: rgb(252, 252, 243);
+background-color: black;
+width: 115%;
+height: 60px;
+padding: 10px;
+text-align: center;
+font-weight: bold;
+font-size: 18px;
+}
+.head  span{
+   color: rgb(207, 187, 0);
+   position:absolute ;
+   left: 98%;
+   top: 10px;
+   cursor: pointer;
+}
+.head i{
+    color: rgb(207, 187, 0) ;
+}
+.head a{
+    text-decoration: underline;
+    color: blue;
+}
+#navbarSupportedContent{
+    margin: 35px;
+    padding: 8px;
+    color: beige;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+#main
+ {
+    margin: 60px;
+    color: antiquewhite;
+}
+button{
+    position: absolute;
+    right: 20%;
+    top: 4%;
+}
+form {
+    position: absolute;
+    right: 45%;
+    top: 15px;
+    background-color: transparent;
+width: 30%;
+
+padding: 5px;
+
+}
+#main input{
+    width: 80%;
+    color: antiquewhite;
+  border-radius: 10px;
+  /* border:2px rgb(243, 243, 242); */
+}
+#main input:hover{
+    border:2px rgb(198, 198, 11);
+}
+#main a{
+    color: #f9f6f6;
+}
+#pic{
+    position: absolute;
+    right: 15%;
+}
+#carouselExampleIndicators{
+    position: absolute;
+    top: 42%;
+}
+.scroll-down-text{
+    margin: 34%;
+    display:flex;
+   position: absolute;
+   /* left: 15%; */
+}
+
+.scroll-down-text .par{
+    font-size: 35px;
+    color: rgb(244, 244, 237);
+    font-weight: bold;
+    position:relative;
+ left: 5%;
+ padding: 15px;
+display:flexbox;
+margin: 20px;
+text-align: center;
+
+
+}
+.scroll-down-text p{
+    font-size: 35px;
+    color: rgb(244, 244, 237);
+    font-weight: bold; 
+    left: 115%;
+    top: 45%;
+    position: absolute;
+    padding: 15px;
+   display:flex;
+   margin: 20px;
+}
+.scroll-down-text #arrow{
+    font-size: 30px;
+    color: rgb(182, 182, 10);
+    border: 3px solid yellow  ;
+    border-radius: 200px;
+    border-style:double;
+ padding: 10px;
+    /* margin: 20px; */
+top: 60%;
+left: 100%;
+    position: absolute;
+    font-weight:bold ;
+    animation-name: jump;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-fill-mode: alternate;
+    animation-delay: 2s;
+    animation-direction: alternate-reverse;
+
+}
+@keyframes jump{
+    0%{top: 0px;
+       bottom: 0x;
+    }
+}
+.scroll-down-text a{ 
+text-decoration: none;
+}
+ #scroll_here{
+    display: flex;
+    top: 140%;
+  left:25%;
+    position: absolute;
+    width: 100%;
+ } 
+
+ #pic3{
+display: flex;
+position: absolute;
+top: 130%;
+/* left: 5%; */
+width: 100%;
+
+    }
+#slide{
+    display: flex;
+    position: absolute;
+    top: 220%;
+    left: 28%;
+    width: 100%;
+}
+
+#big{
+    color: rgb(203, 203, 49);
+    font-size: 35px;
+    font-weight: bold;
+}
+#move{
+    width: 100%;
+    top: 230%;
+    position: absolute;
+    display: flex;
+    left: 35%;
+    height: 500px;
+}
+
+
+
+
+#foot{
+    display: flex;
+    position: absolute;
+    top: 300%;
+    width: 100%;
+    color: rgb(242, 242, 241);
+    background-color: rgb(76, 77, 77);
+    height: 500px;
+    font-size: 25px;
+}
+#foot a{
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+}
+#foot i{
+    font-size: 35px;
+    border-radius: 15px;
+    color: rgb(200, 0, 0);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.form{
+    display: flex;
+    position: absolute;
+    left: 90%;
+}
+#inp{
+    width: 10%;
+    display: inline-block;
+    margin: 2px 5px;
+}
+#inp input{
+    color: aliceblue;
+    padding: 2px 5px;
+    width: 35px;
+}
+#inp label{
+    float: left;
+    color: red;
+}
+
+
+#yel{
+    color:  rgb(203, 203, 49);
+    font-size: 35px;
+    font-weight: bold;
+}
+#yelo{
+    color:  rgb(203, 203, 49);
+ font-size: 25px; 
+}
+
+#btn2 button{
+    /* width: 30px; */
+    /* height: 50px; */
+    font-size: 25px;
+    color: #f9f6f6;
+    background-color: red;
+    border-radius: 15px;
+  margin-left: 40px;
+}
+strong{
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+}
+p{
+    color: rgb(5, 6, 6);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #head-line{ */
+
+/* .heading-line-div img{ */
+/* position: absolute; */
+   /* top: 5%;  */
+   /* width: 650px; */
+/*  */
+ /* } */
+/*  */
+/* #anim{ */
+    /* left: 55%; */
+    /* position: absolute; */
+/* top:2% ; */
+/*  */
+/*  */
+/*     */
+/* } */
+
+
+
+
+
+
+
+
+
+
+  /* display: flex; */
+/* } */
+/* #head-line #pic2 */
+/* { */
+/*  */
+/* width: 650px; */
+/* top:5%; */
+/* right: 0px; */
+    /* position:absolute; */
+/*  */
+/* } */
+/*  */
+/* .content-width{ */
+/* display: flex; */
+/* width:100% ; */
+/*  */
+/* margin: 20%; */
+/*  */
+/*  */
+/* }  */
+/*  */
+
+
+
+
+
+/* } */
+/*  */
+/*  */
+
+
+
+
+
+ 
+ 
+ 
+    
+    
+ 
+
+
+/* .know-us-box{ */
+    /* display: flex; */
+/* } */
+/*  */
+/* .know-us-box{ */
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+/* } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
